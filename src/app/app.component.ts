@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cda_maximillian_tuto_udemy';
+  auteur = 'Votre Nom';
+  name = 'cda_maximillian';
 }

@@ -1,0 +1,17 @@
+<p>exercice-calcul works!</p>
+
+
+<div>
+    <label for="">Nombre 1</label>
+    <input type="number" class="form-control" [(ngModel)]="Number1">
+</div>
+
+<div>
+    <label for="">Nombre 2</label>
+    <input type="number" class="form-control" [(ngModel)]="Number2">
+</div>
+
+<div>
+    <label for="">Resultat</label>
+    <input type="text" [value]="Number1 + Number2" readonly>
+</div>
